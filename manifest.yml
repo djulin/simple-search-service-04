@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 256M
+  instances: 1
+  domain: mybluemix.net
+  name: simple-search-service-04
+  host: simple-search-service-04
+  disk_quota: 512M
+  services:
+  - simple-search-service-cloudant-service
